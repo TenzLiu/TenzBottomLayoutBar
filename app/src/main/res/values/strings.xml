@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">TenzBottomLayoutBar</string>
+
+    <string-array name="main_list">
+
+        <item>普通底部导航栏</item>
+        <item>普通底部导航栏（中间悬浮）</item>
+        <item>新控件底部导航栏</item>
+        <item>新控件底部导航栏（中间悬浮）</item>
+
+    </string-array>
+
+</resources>

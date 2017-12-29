@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:id="@+id/ll_home"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_home"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/tab_home_s"/>
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:visibility="gone"
+                    android:background="@drawable/shape_circle_point"
+                    android:layout_marginRight="3dp"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="right"
+                    android:visibility="gone"
+                    android:textSize="8sp"
+                    android:text="10"
+                    android:gravity="center"
+                    android:background="@drawable/shape_circle_point"
+                    android:textColor="#FFFFFF"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/colorAppSelect"
+                android:text="首页"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_find"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_find"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/tab_find_n"/>
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:visibility="visible"
+                    android:background="@drawable/shape_circle_point"
+                    android:layout_marginRight="3dp"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="right"
+                    android:visibility="gone"
+                    android:textSize="8sp"
+                    android:text="10"
+                    android:gravity="center"
+                    android:background="@drawable/shape_circle_point"
+                    android:textColor="#FFFFFF"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_find"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/colorAppNormal"
+                android:text="发现"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_add"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_add"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/tab_center"/>
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:visibility="gone"
+                    android:background="@drawable/shape_circle_point"
+                    android:layout_marginRight="3dp"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="right"
+                    android:visibility="gone"
+                    android:textSize="8sp"
+                    android:text="10"
+                    android:gravity="center"
+                    android:background="@drawable/shape_circle_point"
+                    android:textColor="#FFFFFF"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/colorAppNormal"
+                android:text="添加"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_shopcar"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_shopcar"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/tab_shopcar_n"/>
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:visibility="gone"
+                    android:background="@drawable/shape_circle_point"
+                    android:layout_marginRight="3dp"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="right"
+                    android:visibility="visible"
+                    android:textSize="8sp"
+                    android:text="10"
+                    android:gravity="center"
+                    android:background="@drawable/shape_circle_point"
+                    android:textColor="#FFFFFF"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_shopcar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/colorAppNormal"
+                android:text="购物车"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_mine"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_mine"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/tab_mine_n"/>
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:visibility="gone"
+                    android:background="@drawable/shape_circle_point"
+                    android:layout_marginRight="3dp"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="right"
+                    android:visibility="gone"
+                    android:textSize="8sp"
+                    android:text="10"
+                    android:gravity="center"
+                    android:background="@drawable/shape_circle_point"
+                    android:textColor="#FFFFFF"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/colorAppNormal"
+                android:text="我"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

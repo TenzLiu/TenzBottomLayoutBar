@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/selector_bottom_layoutbar_home"
+        android:title="Home"/>
+
+    <item android:id="@+id/menu_find"
+        android:icon="@drawable/selector_bottom_layoutbar_find"
+        android:title="Find"/>
+
+    <item android:id="@+id/menu_add"
+        android:icon="@drawable/selector_bottom_layoutbar_add"
+        android:title="Add"/>
+
+    <item android:id="@+id/menu_shopcar"
+        android:icon="@drawable/selector_bottom_layoutbar_shopcar"
+        android:title="Shopcar"/>
+
+    <item android:id="@+id/menu_mine"
+        android:icon="@drawable/selector_bottom_layoutbar_mine"
+        android:title="Mine"/>
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.tenzliu.tenzbottomlayoutbar.widget.bottomlayoutbar.BottomNavigationViewEx
+        android:id="@+id/bnv_bottom_layoutbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        app:itemTextColor="@color/selector_bottom_layoutbar"
+        app:itemIconTint="@color/selector_bottom_layoutbar"
+        app:menu="@menu/menu_bottom_layoutbar_center"/>
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bnv_bottom_layoutbar" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/tab_center"
+        app:backgroundTint="@android:color/white"
+        app:borderWidth="0dp"
+        app:elevation="9dp" />
+
+
+
+</RelativeLayout>
